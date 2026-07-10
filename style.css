@@ -105,3 +105,43 @@ body {
 .navbar .menu a:hover {
     color: #111827;
 }
+
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 60px 24px;
+}
+
+
+.hero-content {
+    max-width: 780px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 em {
+    font-style: italic;
+    font-weight: 800;
+}
+
+
+.hero-content p {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #e5e7eb;
+    margin-bottom: 32px;
+    max-width: 550px;
+}
