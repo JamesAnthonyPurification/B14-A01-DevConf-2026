@@ -151,3 +151,8 @@ body {
     background-color: #ffffff;
 }
 
+.speaker-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 11fr);
+    gap: 30px;
+}
