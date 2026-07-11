@@ -295,3 +295,77 @@ body {
 .card-featured .price { color: #ffffff; }
 .card-featured .price-sub { color: #9ca3af; }
 .card-featured .features-list li { color: #e2e8f0; }
+
+
+.ai-generated-section {
+    padding: 80px 0;
+    background-color: #ffffff;
+    border-top: 1px solid #e5e7eb;
+}
+
+.ai-section-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.ai-badge {
+    display: inline-block;
+    background-color: #f5f3ff;
+    color: #7c3aed;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 50px;
+    margin-bottom: 12px;
+}
+
+
+.ai-section-header h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.perks-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-bottom: 48px;
+}
+
+.perk-item h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #111827;
+}
+
+.perk-item p {
+    font-size: 15px;
+    color: #4b5563;
+    line-height: 1.6;
+}
+
+
+.faq-accordion {
+    max-width: 800px;
+    margin: 0 auto;
+    border-top: 1px solid #f3f4f6;
+    padding-top: 24px;
+}
+
+.faq-item {
+    margin-bottom: 24px;
+}
+
+.faq-item h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 6px;
+}
+
+.faq-item p {
+    font-size: 14px;
+    color: #6b7280;
+    line-height: 1.5;
+}
